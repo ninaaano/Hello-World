@@ -1,6 +1,6 @@
 #input
 
-def input(student) :
+def student_input(student) :
     name = input("name : ")
     kor = int(input("Korean : "))
     eng = int(input("English : "))
@@ -9,4 +9,5 @@ def input(student) :
     student["kor"] = kor
     student["eng"] = eng
     student["math"] = math
+
     
